@@ -7,7 +7,7 @@ The Backbone Todos build with cortex.
 You can clone this project from github:
 
 ```bash
-$ git clone https://github.com/cortexjs/todos.backbonejs.git/
+$ git clone https://github.com/cortexjs/todos.backbonejs.git
 ```
 
 ## Usage
