@@ -1,26 +1,35 @@
 {
-  "name": "css-test",
+  "name": "todos.backbonejs",
   "version": "0.1.0",
   "description": "The coolest cortex module.",
-  "css": "index.css",
-  "repository": "git://github.com/villa/css-test.git",
+  "main": "index.js",
+  "css": "./todos.css",
+  "repository": "git://github.com/cortexjs/todos.backbonejs.git",
   "keywords": [
-    "test"
+    "todos",
+    "examples"
   ],
   "license": "MIT",
   "author": {
-    "name": "test",
-    "email": "timeline_dev@123.com"
+    "name": "villadora",
+    "email": "jky239@gmail.com"
   },
   "bugs": {
-    "url": "http://github.com/villa/css-test/issues"
+    "url": "http://github.com/cortexjs/todos.backbonejs/issues"
   },
-  "homepage": "http://github.com/villa/css-test",
+  "homepage": "http://github.com/cortexjs/todos.backbonejs",
+  "directories": {
+    "src": "./index.html"
+  },
   "devDependencies": {
     "assert": "*"
   },
   "dependencies": {
-    "vegeta": "^0.1.1",
-    "util": "^1.0.4"
+    "moment": "^2.7.0",
+    "backbone": "^1.1.2",
+    "backbone.localstorage": "^1.1.9",
+    "json": "^1.0.1",
+    "jquery": "^1.9.1",
+    "underscore": "^1.5.2"
   }
 }
