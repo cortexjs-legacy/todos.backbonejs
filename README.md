@@ -36,4 +36,4 @@ Then start a static server:
 $ anywhere
 ```
 
-If the browser is not open, you can open [http://localhost:8000/neurons/todos.backbonejs/0.1.0/todos.backbonejs/index.html](http://localhost:8080/neurons/todos.backbonejs/0.1.0/todos.backbonejs/index.html) to view the page.
+If the browser is not open, you can open [http://localhost:8000/](http://localhost:8080/) to view the page.
