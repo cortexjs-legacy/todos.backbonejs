@@ -1,7 +1,7 @@
 # Cortex
 build/
 .cortex/
-neurons
+neurons/
 
 # Numerous always-ignore extensions
 *.bak

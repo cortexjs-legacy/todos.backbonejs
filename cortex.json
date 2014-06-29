@@ -19,7 +19,7 @@
   },
   "homepage": "http://github.com/cortexjs/todos.backbonejs",
   "directories": {
-    "src": "./index.html"
+    "src": "./destroy.png"
   },
   "devDependencies": {
     "assert": "*"

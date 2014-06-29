@@ -3,11 +3,17 @@
   "version": "0.1.0",
   "description": "The coolest cortex module.",
   "repository": "git://github.com/cortexjs/todos.backbonejs.git",
-  "keywords": [
-  ],
+  "keywords": [],
   "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/jshint {lib,test}/*.js index.js package.json cortex.json"
+  },
   "author": {
     "name": "villadora",
     "email": "jky239@gmail.com"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.1",
+    "mocha": "^1.20.1"
   }
 }
