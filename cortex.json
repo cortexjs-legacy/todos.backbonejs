@@ -19,13 +19,15 @@
   },
   "homepage": "http://github.com/cortexjs/todos.backbonejs",
   "directories": {
-    "src": "./img"
+    "src": "img"
   },
   "devDependencies": {
     "assert": "*"
   },
+  "asyncDependencies": {
+    "moment": "^2.7.0"
+  },
   "dependencies": {
-    "moment": "^2.7.0",
     "backbone": "^1.1.2",
     "backbone.localstorage": "^1.1.9",
     "json": "^1.0.1",
