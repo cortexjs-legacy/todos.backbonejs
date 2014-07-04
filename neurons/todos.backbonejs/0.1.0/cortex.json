@@ -1,0 +1,46 @@
+{
+  "name": "todos.backbonejs",
+  "version": "0.1.0",
+  "description": "The coolest cortex module.",
+  "main": "index.js",
+  "css": [
+    "todos.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cortexjs/todos.backbonejs.git"
+  },
+  "keywords": [
+    "todos",
+    "examples"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "villadora",
+    "email": "jky239@gmail.com"
+  },
+  "bugs": {
+    "url": "http://github.com/cortexjs/todos.backbonejs/issues"
+  },
+  "homepage": "http://github.com/cortexjs/todos.backbonejs",
+  "directories": {
+    "src": "img"
+  },
+  "devDependencies": {
+    "assert": "*"
+  },
+  "asyncDependencies": {},
+  "dependencies": {
+    "moment": "^2.7.0",
+    "backbone": "^1.1.2",
+    "backbone.localstorage": "^1.1.9",
+    "json": "^1.0.1",
+    "jquery": "^1.9.1",
+    "underscore": "^1.5.2"
+  },
+  "gitHead": "90783f3c13017bae9b88ee68a32435990fa18370",
+  "readme": "# Example: Backbone - Todos with cortex\n\nThe Backbone Todos build with cortex.\n\n## Install\n\nYou can clone this project from github:\n\n```bash\n$ git clone https://github.com/cortexjs/todos.backbonejs.git\n```\n\n## Usage\n\nYou should install cortex first:\n\n```bash\n$ npm install cortex -g\n```\n\nThen you can initialize this project:\n\n```bash\n$ cortex install\n```\n\nBuild this package:\n\n```bash\n$ cortex build\n```\n\nThen start a static server:\n\n```bash\n$ anywhere\n```\n\nIf the browser is not open, you can open [http://localhost:8000/](http://localhost:8080/) to view the page.\n",
+  "readmeFilename": "README.md",
+  "_id": "todos.backbonejs@0.1.0",
+  "entries": []
+}

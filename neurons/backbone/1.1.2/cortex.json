@@ -1,0 +1,36 @@
+{
+  "name": "backbone",
+  "description": "Give your JS App some Backbone with Models, Views, Collections, and Events. Shim repository.",
+  "homepage": "http://backbonejs.org",
+  "keywords": [
+    "model",
+    "view",
+    "controller",
+    "router",
+    "server",
+    "client",
+    "browser"
+  ],
+  "dependencies": {
+    "underscore": ">=1.5.0"
+  },
+  "author": {
+    "name": "Jeremy Ashkenas",
+    "email": "jeremy@documentcloud.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/components/backbone.git"
+  },
+  "main": "backbone.js",
+  "version": "1.1.2",
+  "gitHead": "53f77901a4ea9c7cf75d3db93ddddf491998d90f",
+  "readme": "     ____                     __      __\n    /\\  _`\\                  /\\ \\    /\\ \\                                   __\n    \\ \\ \\ \\ \\     __      ___\\ \\ \\/'\\\\ \\ \\____    ___     ___      __      /\\_\\    ____\n     \\ \\  _ <'  /'__`\\   /'___\\ \\ , < \\ \\ '__`\\  / __`\\ /' _ `\\  /'__`\\    \\/\\ \\  /',__\\\n      \\ \\ \\ \\ \\/\\ \\ \\.\\_/\\ \\__/\\ \\ \\\\`\\\\ \\ \\ \\ \\/\\ \\ \\ \\/\\ \\/\\ \\/\\  __/  __ \\ \\ \\/\\__, `\\\n       \\ \\____/\\ \\__/.\\_\\ \\____\\\\ \\_\\ \\_\\ \\_,__/\\ \\____/\\ \\_\\ \\_\\ \\____\\/\\_\\_\\ \\ \\/\\____/\n        \\/___/  \\/__/\\/_/\\/____/ \\/_/\\/_/\\/___/  \\/___/  \\/_/\\/_/\\/____/\\/_/\\ \\_\\ \\/___/\n                                                                           \\ \\____/\n                                                                            \\/___/\n    (_'_______________________________________________________________________________'_)\n    (_.———————————————————————————————————————————————————————————————————————————————._)\n\nNOTE: When requiring Backbone, you should globally declare jQuery, like this:\n    \n    Backbone.$ = require(\"jquery\");\n    \nOtherwise, Backbone won't be able to find jQuery. (You'll need to specifiy jQuery as a dependency)\n\n------------\n\nBackbone supplies structure to JavaScript-heavy applications by providing models key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing application over a RESTful JSON interface.\n\nFor Docs, License, Tests, pre-packed downloads, and everything else, really, see:\nhttp://backbonejs.org\n\nTo suggest a feature, report a bug, or general discussion:\nhttp://github.com/jashkenas/backbone/issues\n\nBackbone is an open-sourced component of DocumentCloud:\nhttps://github.com/documentcloud\n\nMany thanks to our contributors:\nhttp://github.com/jashkenas/backbone/contributors\n\nSpecial thanks to Robert Kieffer for the original philosophy behind Backbone.\nhttp://github.com/broofa\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/components/backbone/issues"
+  },
+  "_id": "backbone@1.1.2",
+  "css": [],
+  "entries": []
+}
