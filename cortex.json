@@ -24,10 +24,9 @@
   "devDependencies": {
     "assert": "*"
   },
-  "asyncDependencies": {
-    "moment": "^2.7.0"
-  },
+  "asyncDependencies": {},
   "dependencies": {
+    "moment": "^2.7.0",
     "backbone": "^1.1.2",
     "backbone.localstorage": "^1.1.9",
     "json": "^1.0.1",

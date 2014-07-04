@@ -127,6 +127,10 @@ body {
     word-break: break-word;
 }
 
+#todo-list li .view .time {
+    font-size: 10px;
+}
+
 #todo-list li .edit {
     display: none;
 }
@@ -186,6 +190,13 @@ body {
 
 #todo-count span {
     font-weight: bold;
+}
+
+#instructions {
+    margin: 10px auto;
+    color: #777777;
+    text-shadow: rgba(255, 255, 255, 0.8) 0 1px 0;
+    text-align: center;
 }
 
 #instructions {
