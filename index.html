@@ -3,16 +3,16 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Backbone.js Todos</title>
+  <title>Backbone.js Todos with Cortex</title>
   <link rel="stylesheet" href="/neurons/todos.backbonejs/0.1.0/todos.css"/>
 </head>
 
 <body>
-
+  <a href="https://github.com/cortexjs/todos.backbonejs"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
   <div id="todoapp">
 
     <header>
-      <h1>Todos</h1>
+      <h1>Todos with Cortex</h1>
       <input id="new-todo" type="text" placeholder="What needs to be done?">
     </header>
 
@@ -40,8 +40,8 @@
     <br />Rewritten by: <a href="http://addyosmani.github.com/todomvc">TodoMVC</a>.
   </div>
 
-  <script src="/neurons/neuron/6.1.1/neuron.js"></script>
-  <script src="/neurons/config.js"></script>
+  <script src="./neurons/neuron.js"></script>
+  <script src="./neurons/config.js"></script>
   <script>
     neuron.config({
       path: '/neurons'
@@ -60,6 +60,7 @@
     <div class="view">
       <input class="toggle" type="checkbox" <%= done ? 'checked="checked"' : '' %> />
       <label><%- title %></label>
+      <span class="time">created on <%= time %></span>
       <a class="destroy"></a>
     </div>
     <input class="edit" type="text" value="<%- title %>" />
